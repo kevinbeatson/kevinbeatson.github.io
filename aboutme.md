@@ -1,16 +1,11 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Still Trying to Make a Difference
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I have worked in the NHS since 1997. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My plan was to stop two years, get good at Oracle Forms development and then go contracting and earn loads of money in the finance sector. Well, that was my plan for about a week. It was never going to work.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I'm proud to work for the NHS. I'm still enthusiastic. I still think we can make a difference.
