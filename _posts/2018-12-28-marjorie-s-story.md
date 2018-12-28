@@ -1,21 +1,21 @@
 ---
 layout: post
-published: false
+published: true
 title: Marjorie's Story
 ---
-Marjorie is an 85 year old lady who is taken ill at home. She is brought to the hospital by ambulance. The Ambulance service books her onto their system and the Emergency Department and the Hospital control room know she is coming as she appears on the ambulance arrivals boards located in the both locations.
-Marjorie arrives at the department and is booked in by the admin team. She is already known to the trust and easily identified and located on the System. The ED Clerk notices there is a safeguarding alert and communicates this fact to the admitting nurse who is performing triage. Marjorie appears on the ED System and the electronic whiteboards located throughout the department.
+Marjorie is an 85 year old lady who is taken ill at home and an ambulance is called. The Ambulance Service book her onto their system and record that she is being brought into her local hospital. At the hospital the Emergency Department and the control room know she is coming when she appears on the ambulance arrivals boards located in the both locations.
+Marjorie arrives at the department and is booked in by the admin team. She is already known to the trust and easily identified on the System and a new attendance recorded. The ED Clerk notices there is a safeguarding alert and communicates this fact to the admitting nurse who is performing triage. Marjorie appears on the ED System and the electronic whiteboards located throughout the department.
 
 ![ambulancearrbd.png]({{site.baseurl}}/img/ambulancearrbd.png)
-
+ED Whiteboard
 
 Her status and location (currently in the ambulance handover area) are tracked as she progresses on her journey. Staff can see the forget-me-not symbol on the boards, indicating that Marjorie is known to have a pre-existing diagnosis of Dementia, this being recorded on a previous attendance. This board shows Frailty flags, Ceiling of Care, GAPS and NEWS.
 
 
-A few minutes later the performance dashboards are updated.
+A few minutes later the performance activity dashboards are updated.
 
 ![edactivitybd.png]({{site.baseurl}}/img/edactivitybd.png)
-
+Near real-time dashboard
 
 Following the handover to the ED team The Nurse completes a set of physiological observations, recording vital signs on CPD. This automatically calculates a e-NEW score of 5 and triggers a prompt for a sepsis screen. A NEW score of 5 is the recommended trigger point for sepsis screening and the system automatically delivers an alert with prompts for action.
 
@@ -49,6 +49,9 @@ On arrival on AMU her "pending admission" is finalised with a few clicks and Mar
 
 ![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
 The Original Whiteboard
+
+![safetybd.png]({{site.baseurl}}/img/safetybd.png)
+Patient Safety Board
 
 The arrivals board on AMU shows that Marjorie needs her nursing assessments completing for pressure area and falls risk. Her status as a diabetic is clearly visible on the whiteboard (having had a referral for diabetes retinal screening 10 years prior she has been identifiable as diabetic since then). Four times a day blood glucose monitoring is automatically scheduled as part of her observation regime. The diabetes register also makes her clearly visible to the diabetes specialist nurses in the hospital. Her glucose on admission is 17 so she also appears on their ‘out of range list’.
 
