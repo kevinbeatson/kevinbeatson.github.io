@@ -34,6 +34,8 @@ The generic user accounts are displayed in a list;
 
  
  ![](https://raw.githubusercontent.com/kevinbeatson/kevinbeatson.github.io/master/img/a2aa9c-genuser.jpg)
+ and a second
+  ![image](/img/a2aa9c-genuser.jpg)
  
 The Nurse in charge then sets up the user by editing an available account. They select a generic user from the list, matching the level of access that is required.
 
