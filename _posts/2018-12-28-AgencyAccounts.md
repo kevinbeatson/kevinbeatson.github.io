@@ -35,7 +35,7 @@ The generic user accounts are displayed in a list;
  
 The Nurse in charge then sets up the user by editing an available account. They select a generic user from the list, matching the level of access that is required.
 
-![image](https://(/img/bc65f6-gen11.jpg)
+![image](/img/bc65f6-gen11.jpg)
  
 They enter the Nurse details; name, role and NMC number. They must also set an end date for the access (three days max). They then allow the Agency nurse to confirm they have done the e-learning and then the password dialog appears and the new user enters their own password.
 They can then use the system using the generic account name with their own chosen password.
