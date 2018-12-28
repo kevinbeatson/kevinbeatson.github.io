@@ -37,9 +37,6 @@ Recording the patient as an intended admission causes Marjorie to become visible
 ![arrivalsbd.png]({{site.baseurl}}/img/arrivalsbd.png)
 Arrivals Board
 
-![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
-The Original Whiteboard
-
 ![bedoffc.jpg]({{site.baseurl}}/img/bedoffc.jpg)
 Control Room
 
@@ -49,6 +46,9 @@ Her ECG is completed in ED and the printout is scanned onto the system along wit
 Marjorie is moved to AMU and her ED attendance is completed within the ED screens. The electronic summary is transmitted electronically to her GP.
 
 On arrival on AMU her "pending admission" is finalised with a few clicks and Marjorie is allocated a bed. All the whiteboards and systems update. The inpatient record is explicitly linked to the ED record with data such as reason for admission flowing through to the inpatient care record. 
+
+![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
+The Original Whiteboard
 
 The arrivals board on AMU shows that Marjorie needs her nursing assessments completing for pressure area and falls risk. Her status as a diabetic is clearly visible on the whiteboard (having had a referral for diabetes retinal screening 10 years prior she has been identifiable as diabetic since then). Four times a day blood glucose monitoring is automatically scheduled as part of her observation regime. The diabetes register also makes her clearly visible to the diabetes specialist nurses in the hospital. Her glucose on admission is 17 so she also appears on their ‘out of range list’.
 
