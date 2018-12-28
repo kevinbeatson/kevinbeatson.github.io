@@ -16,27 +16,26 @@ There is one display board that shows all patient currently within the Emergency
 So for example here we can see the patients waiting in the Ambulance arrivals area
 
 ![EDAmbulance.jpg]({{site.baseurl}}/img/EDAmbulance.jpg)
-
 The board shows;
--The Cubicle in which the patient is located
--the patients initials, sex and age
--visual indicators, here we can see the forget-me-not which indicates dementia, a ceiling of care alert and frailty flags
--The most recent National Early Warning Score (NEWS) and the time since the observations were taken
--whether the patient has been streamed or assessed and whatthe priority level is
--if the patient has been seen by a doctor, by whom and at what time
--the responsible consultant
--if a treatment decision has been reached and how long has elapsed since the patient has been seen by a doctor 
--if Canulae have been fitted
--if there are pathology or radiology results to view
--key tasks teh patient is waiting for (and how long)
--the Glasgow Prediction Score
--if the patient is ready for transfer
--for patients flagged for admissison the destination is shown (once recorded)
--total time in ED
--if the ED Coding has been completed
--total time in ED and the projected breach time
+- The Cubicle in which the patient is located
+- the patients initials, sex and age
+- visual indicators, here we can see the forget-me-not which indicates dementia, a ceiling of care alert and frailty flags
+- The most recent National Early Warning Score (NEWS) and the time since the observations were taken
+- whether the patient has been streamed or assessed and whatthe priority level is
+- if the patient has been seen by a doctor, by whom and at what time
+- the responsible consultant
+- if a treatment decision has been reached and how long has elapsed since the patient has been seen by a doctor 
+- if Canulae have been fitted
+- if there are pathology or radiology results to view
+- key tasks the patient is waiting for (and how long)
+- the Glasgow Prediction Score
+- if the patient is ready for transfer
+- for patients flagged for admissison the destination is shown (once recorded)
+- total time in ED
+- if the ED Coding has been completed
+- total time in ED and the projected breach time
 
-Most of the data items have pop up tooltips/more detail. 
+Most of the data items have pop up tooltips/more detail. All the data is held in the main ED/PAS system and queried directly.
 
 
 
