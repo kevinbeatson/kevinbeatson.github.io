@@ -32,7 +32,7 @@ We do not create an AD/Network account to match these.
 When an Agency nurse attends out of “office hours”, they report to the nurse in charge of the ward. The Nurse in charge has access to an Oracle Apex Application that we wrote in house. This application allows them to grant temporary access to the Agency Nurse;
 The generic user accounts are displayed in a list;
 
- ![](https://github.com/kevinbeatson/kevinbeatson.github.io/img/a2aa9c-genuser.jpg)
+ ![](https://github.com/kevinbeatson/kevinbeatson.github.io/blob/master/img/a2aa9c-genuser.jpg)
  
  end
  
