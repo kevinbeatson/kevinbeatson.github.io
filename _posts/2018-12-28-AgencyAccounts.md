@@ -19,20 +19,22 @@ The audit on any screen would show “AGENCYn” — we’d need to cross refere
 These agency logins can be shared i.e. more than one user using an agency login concurrently
 overall — a pretty poor approach.
 
-## What We Did
+### What We Did
 First thing was that the Nurse Bank Management and Medical Staffing got a grip as far as possible telling all Bank that they need to be on the system and trained, with access before they will get shifts. Locums need to arrange training & access  before the shift start.
 Managing the process better massively reduced the problem.
 
-## A note about the Laptops
+### A note about the Laptops
 Booting up a laptop can be time consuming and many nursing staff will want to access a laptop – often for a relatively minor system update. For this reason the laptops have a generic logon that boots into windows. The nurse then logs on to the clinical application using their normal network logon – this facilitates quick access and speedy user swapping. The laptops are tied down in general functionality.
 
-## Technical Solution
+### Technical Solution
 Using our normal user account creation process we created a number of generic user accounts that matched the roles- HCA, Staff Nurse etc. These were set up on CPD just like a normal named user.
 We do not create an AD/Network account to match these.
 When an Agency nurse attends out of “office hours”, they report to the nurse in charge of the ward. The Nurse in charge has access to an Oracle Apex Application that we wrote in house. This application allows them to grant temporary access to the Agency Nurse;
 The generic user accounts are displayed in a list;
 
- ![](https://github.com/kevinbeatson/kevinbeatson.github.io/blob/master/img/a2aa9c-genuser.jpg)
+ #![](https://github.io/kevinbeatson/blob/master/img/a2aa9c-genuser.jpg)
  
- end
+ ![](https://raw.githubusercontent.com/kevinbeatson/kevinbeatson.github.io/master/img/a2aa9c-genuser.jpg)
+ 
+ endddd
  
