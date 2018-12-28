@@ -16,6 +16,7 @@ There is one display board that shows all patient currently within the Emergency
 So for example here we can see the patients waiting in the Ambulance arrivals area
 
 ![EDAmbulance.jpg]({{site.baseurl}}/img/EDAmbulance.jpg)
+
 The board shows;
 - The Cubicle in which the patient is located
 - the patients initials, sex and age
@@ -37,7 +38,7 @@ The board shows;
 
 Most of the data items have pop up tooltips/more detail. All the data is held in the main ED/PAS system and queried directly.
 
-
+_more to follow
 
 
 
