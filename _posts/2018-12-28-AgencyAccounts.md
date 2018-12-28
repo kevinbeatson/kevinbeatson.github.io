@@ -2,7 +2,7 @@
 layout: post
 title: Agency Logons
 #subtitle: Excerpt from Soulshaping by Jeff Brown
-bigimg: /img/cropped-aPicture8.jpg
+#bigimg: /img/cropped-aPicture8.jpg
 ---
 ## The Problem with Nurse Access
 
