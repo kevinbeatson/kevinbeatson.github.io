@@ -14,10 +14,8 @@ These systems are designed to support the specific care of individual patients a
 
 There is one display board that shows all patient currently within the Emergency Department (ED). This can be launched with launched with a parameter based on the location within the department to show a smaller list of patients pertinent to those under he care of staff in that area.
 So for example here we can see the patients waiting in the Ambulance arrivals area
-
 ![EDAmbulance.jpg]({{site.baseurl}}/img/EDAmbulance.jpg)
-
-The board shows;
+The board shows
 - The Cubicle in which the patient is located
 - the patients initials, sex and age
 - visual indicators, here we can see the forget-me-not which indicates dementia, a ceiling of care alert and frailty flags
@@ -38,7 +36,7 @@ The board shows;
 
 Most of the data items have pop up tooltips/more detail. All the data is held in the main ED/PAS system and queried directly.
 
-_more to follow
+_more to follow_
 
 
 
