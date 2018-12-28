@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Electronic Whiteboards using Oracle APEX
+bigimg: /img/cropped-aPicture8.jpg
 ---
 
 ## Electronic Whiteboards
@@ -35,7 +36,7 @@ The board shows
 - If the ED Coding has been completed
 - Total time in ED and the projected breach time
 
-Most of the data items have pop up tooltips/more detail. All the data is held in the main ED/PAS system and queried directly.
+Most of the data items have pop up tooltips or drill downs to show more detail. All the data is held in the main ED/PAS system and queried directly. Users can authenticate using their normal network logon and perform limited updates - for example recording times or creating or acknowledging tasks 
 
 _more to follow_
 
