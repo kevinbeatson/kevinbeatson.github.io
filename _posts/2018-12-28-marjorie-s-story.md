@@ -66,4 +66,6 @@ Later that morning the patient is transferred to an elderly care ward. A transfe
 
 Recognising the dementia label the bed managers ensure it is likely to be her last move within the hospital to minimise disruption and delirium. All her forward blood test results (standing order created for 3 days by the staff) ‘move’ with her as she changes ward. The phlebotomy team identify all the requests due each morning from their worklist linked to all patient records updating their location in real time.
 
-Discharge letter created as we go along Meds ordered to take home Patient Discharged eDN to GP automatically A Few hours later … Blood results come back from lab – onto Consultants “Notify” along with worklist item to do a full disch. Letter
+The Discharge letter is finalised by the discharging doctor who selects TTO Meds which are then flagged up on the screens within Pharmacy and recorded on the Discharge Notification having been electronically validated by the ward Pharmacist.
+Once the TTO pack is returned to the ward Marjory is discharged by the Nurse, given a paper copy of the dischareg notification and discharged from the Inpatient screens. At this point the electonic version of the discharge notification is transmitted directly to the GP system.
+A Few hours later Blood results are posted in the pathology department. Because Marjory is no longer an inpatient they cannot be seen on the ward, instead they become visible on the  Consultants “Notify” (their clinical workflow system) along with worklist item to do a full discharge Letter.
