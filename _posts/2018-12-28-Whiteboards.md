@@ -18,7 +18,7 @@ So for example here we can see the patients waiting in the Ambulance arrivals ar
 ![EDAmbulance.jpg]({{site.baseurl}}/img/EDAmbulance.jpg)
 
 The board shows
-- The Cubicle in which the patient is located
+- The cubicle in which the patient is located
 - The patients initials, sex and age
 - Visual indicators. Here we can see the forget-me-not which indicates dementia, a ceiling of care alert and frailty flags
 - The most recent National Early Warning Score (NEWS) and the time since the observations were taken
@@ -26,13 +26,12 @@ The board shows
 - If the patient has been seen by a doctor, by whom and at what time
 - The responsible consultant
 - If a treatment decision has been reached and how long has elapsed since the patient has been seen by a doctor 
-- If Canulae have been fitted
+- If canulae have been fitted
 - If there are pathology or radiology results to view
 - Key tasks the patient is waiting for (and for how long)
-- The Glasgow Prediction Score
+- The Glasgow Admission Prediction Score
 - If the patient is ready for transfer
 - For patients flagged for admissison the destination is shown (once recorded)
-- Total time in ED
 - If the ED Coding has been completed
 - Total time in ED and the projected breach time
 
@@ -53,6 +52,13 @@ Te board shows
 - Clerking Status (TBS = To Be Seen)
 - A flag if the patient can outlie (i.e. be sent to a ward belonging to a different specialty)
 - RFT - is the patient ready to transfer
+
+### Activity Predictor
+
+We stream data to an Oracle 11gR2 database using Oracle Streams, we have a transformation process which runs every 15 minutes that updates the "real time" data that is displayed in this screen. This shows the position in relation to attendances to the Emergency Department and admissions and discharges to the two acute hospitals.
+Current stats are shown alongside averaages, upper and lower control limits based on activity data over the preceeding two years. Colour coding is used to give a quick indication of the state of the hospital.
+
+![edactivitybd.png]({{site.baseurl}}/img/edactivitybd.png)
 
 
 _more to follow_
