@@ -41,9 +41,18 @@ Most of the data items have pop up tooltips or drill downs to show more detail. 
 ### Arrivals Boards
 
 The Arrivals Boards are loacted within the admitting wards areas and the control room as "permenantly on" displays. They show patients that are on their way to the wards as well as patients already admitted onto a ward. They clearly show the status of a patient in relation to their being seen by an admitting doctor. This is a key safety factor in ensuring patients get seen quickly.
+
 ![arrivalsbd.png]({{site.baseurl}}/img/arrivalsbd.png)
 
-
+The screens can be configured to show specific specialties, groups of specialties or all patients. 
+Te board shows
+- The location of the patient (or intended location if still in ED, or coming directly from Primary Care)
+- LoS (legth of Stay)
+- Reason for admission & who discussed the admission 
+- Sepsis Screening Status
+- Clerking Status (TBS = To Be Seen)
+- A flag if the patient can outlie (i.e. be sent to a ward belonging to a different specialty)
+- RFT - is the patient ready to transfer
 
 
 _more to follow_
