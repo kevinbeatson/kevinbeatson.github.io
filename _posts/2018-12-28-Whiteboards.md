@@ -38,6 +38,14 @@ The board shows
 
 Most of the data items have pop up tooltips or drill downs to show more detail. All the data is held in the main ED/PAS system and queried directly. Users can authenticate using their normal network logon and perform limited updates - for example recording times or creating or acknowledging tasks 
 
+### Arrivals Boards
+
+The Arrivals Boards are loacted within the admitting wards areas and the control room as "permenantly on" displays. They show patients that are on their way to the wards as well as patients already admitted onto a ward. They clearly show the status of a patient in relation to their being seen by an admitting doctor. This is a key safety factor in ensuring patients get seen quickly.
+![arrivalsbd.png]({{site.baseurl}}/img/arrivalsbd.png)
+
+
+
+
 _more to follow_
 
 
