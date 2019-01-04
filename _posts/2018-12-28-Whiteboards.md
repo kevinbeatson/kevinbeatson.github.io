@@ -68,6 +68,20 @@ Bed managers can see the location of available beds, if they are male or female 
 clicking the ward shorname/number will drill down into the Ward Whiteboard so they van review detail
 The screen auto-refreshes every tem minutes, but can be manually refreshed.
 
+### Ward Whiteboard
+These screens were not written in Oracle APEX, but were xxxxx
+There are one or two of these screens on each ward, they are st up on PCs that are always on and auto-start directly to the screen.
+
+![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
+
+The screen shows an approximate layout of the ward and clearly identifies the occupied beds as well as patients who have arrived but not been allocated to a bed. The screenshot above is from our test database and is from a presentation we did in 2007. The screens were first put live in 2006 and are still in use. You can see the patient, which consultant is responsible for their care, which nursing team and some clinical information such as their NEWS, diabetes status etc.
+On the current version you can drill down to see their nursing sonservations chart.
+
+
+
+
+
+
 _more to follow_
 
 
