@@ -61,6 +61,12 @@ Current stats are shown alongside averaages, upper and lower control limits base
 
 ![edactivitybd.png]({{site.baseurl}}/img/edactivitybd.png)
 
+### Bed Status
+This board shows the bed stock of the Hospitals (only one shown in the screenshot below)
+Bed managers can see the location of available beds, if they are male or female and the numbers of expected discharges today and tomorrow.
+![bedstock.JPG]({{site.baseurl}}/img/bedstock.JPG)
+clicking the ward shorname/number will drill down into the Ward Whiteboard so they van review detail
+The screen auto-refreshes every tem minutes, but can be manually refreshed.
 
 _more to follow_
 
