@@ -69,7 +69,7 @@ clicking the ward shorname/number will drill down into the Ward Whiteboard so th
 The screen auto-refreshes every tem minutes, but can be manually refreshed.
 
 ### Ward Whiteboard
-These screens were not written in Oracle APEX, but were xxxxx
+These screens were not written in Oracle APEX, but were created using java server pages and oracle reports. Its not how we would do them today, but they have been robust and stood the test of time.
 There are one or two of these screens on each ward, they are st up on PCs that are always on and auto-start directly to the screen.
 
 ![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
