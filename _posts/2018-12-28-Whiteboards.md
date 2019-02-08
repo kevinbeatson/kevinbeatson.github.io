@@ -80,15 +80,18 @@ On the current version you can drill down to see their nursing sonservations cha
 ### Patient Board
 
 text
+PatientBoard.JPG
+![PatientBoard.JPG]({{site.baseurl}}/img/PatientBoard.JPG)
 
 ### Transfers Board
 
 text
+![Transfers.JPG]({{site.baseurl}}/img/Transfers.JPG)
 
 ### Departures
 
 text
-
+![Departures.JPG]({{site.baseurl}}/img/Departures.JPG)
 
 
 
