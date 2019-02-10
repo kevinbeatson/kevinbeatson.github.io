@@ -120,7 +120,7 @@ This screen gives an overview of the whole hospital or specialty, showing patien
 
 The departures board is more interactive than most of our other electronic bards, having a number of parameters allow users to search for patients meeting specific criteria.
 
-
+#### Some Site Photos 
 
 ![EDphoto.JPG]({{site.baseurl}}/img/EDphoto.JPG)
 Nursing Station in Emergency Department Showing the ED Board on the large screen.
