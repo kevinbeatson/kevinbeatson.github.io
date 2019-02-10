@@ -10,12 +10,13 @@ bigimg: /img/cropped-aPicture8.jpg
 
 We have used [Oracle APEX](https://apex.oracle.com/) to create different display "boards" to support the care of Patients during their stay in our hospitals. These boards have been developed in-house by our own developers over a number of years. They are built directly on the Oracle database that is used for our Patient Admin System.
 Located throughout the hospitals at the point of use, most of the boards are permenantly "on" and require no user input. They auto-refresh to update every few minutes to reflect changes made on the patient administration and clinical systems. Some allow users to authenticate and drill down to see more information or update the patient record.
-These systems are designed to support the specific care of individual patients but also support the management of the flow of patients through the hospitals.
+These systems are designed to support the specific care of individual patients and the management of the flow of patients through the hospitals.
 
 ### Emergency Department Boards
 
 There is one display board that shows all patient currently within the Emergency Department (ED). This can be launched with a parameter based on the location to show a shorter list of patients to those staff in that area, whereas others will show full lists of patients.
 So for example here we can see the patients waiting in the Ambulance arrivals area
+
 ![EDAmbulance.jpg]({{site.baseurl}}/img/EDAmbulance.jpg)
 
 The board shows
@@ -23,8 +24,8 @@ The board shows
 - The patients initials, sex and age
 - Visual indicators. Here we can see the forget-me-not which indicates dementia, a ceiling of care alert and frailty flags
 - The most recent National Early Warning Score (NEWS) and the time since the observations were taken
-- Whether the patient has been streamed or assessed and what the priority level is
-- If the patient has been seen by a doctor, by whom and at what time
+- Whether the patient has been streamed or assessed and the priority level
+- Whether or not the patient has been seen by a doctor, by whom and at what time
 - The responsible consultant
 - If a treatment decision has been reached and how long has elapsed since the patient has been seen by a doctor 
 - If canulae have been fitted
@@ -64,18 +65,20 @@ Current stats are shown alongside averaages, upper and lower control limits base
 ### Bed Status
 This board shows the bed stock of the Hospitals (only one shown in the screenshot below)
 Bed managers can see the location of available beds, if they are male or female and the numbers of expected discharges today and tomorrow.
+
 ![bedstock.JPG]({{site.baseurl}}/img/bedstock.JPG)
+
 clicking the ward shorname/number will drill down into the Ward Whiteboard so they van review detail
 The screen auto-refreshes every tem minutes, but can be manually refreshed.
 
 ### Ward Whiteboard
-These screens were not written in Oracle APEX, but were created using java server pages and oracle reports. Its not how we would do them today, but they have been robust and stood the test of time.
+These screens were not written in Oracle APEX, but were created using java server pages and oracle reports server. It's not how we would do them today, but they have been robust and stood the test of time.
 There are one or two of these screens on each ward, they are st up on PCs that are always on and auto-start directly to the screen.
 
 ![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
 
-The screen shows an approximate layout of the ward and clearly identifies the occupied beds as well as patients who have arrived but not been allocated to a bed. The screenshot above is from our test database and is from a presentation we did in 2007. The screens were first put live in 2006 and are still in use. You can see the patient, which consultant is responsible for their care, which nursing team and some clinical information such as their NEWS, diabetes status etc.
-On the current version you can drill down to see their nursing sonservations chart.
+The screen shows an approximate layout of the ward and clearly identifies the occupied beds as well as patients who have arrived but have not yet been allocated to a bed. The screenshot above is from our test database and is from a presentation we did in 2007. The screens were first put live in 2006 and are still in use. You can see the patient, which consultant is responsible for their care, which nursing team and some clinical information such as their NEWS, diabetes status etc.
+On the current version you can drill down to see their nursing observations chart.
 
 ### Patient Board
 
@@ -88,7 +91,7 @@ As with the ED Board there are indicators for Patients with Diabetes, Frailty, D
 - Nutrition Score
 - Waterlow Score (Skin assessment)
 - Falls Assessment
-- if Cannulae are fitted
+- Number of Cannulae (if fitted)
 - Clerking Status
 - Indicator if any Pathology has been reported, showing as a red cross until it is reviewed
 - Similar indicator for Radiology
@@ -99,7 +102,7 @@ As with the ED Board there are indicators for Patients with Diabetes, Frailty, D
 - Discharge Drug (TTO) indicator
 - Flag showing if the electronic discharge letter has been done (for patients approaching transfer)
 - Discharge status indicator
-- Flag showing if the ptient can outlie
+- Flag showing if the patient can outlie
 
 The board is instrumental in supporting discharge planning. You can see what the patient is waiting for, the details of any delays and where the patient will be discharged to. The screen shows details of any internal referrals and interactions with Social Services for Delayed Transfers of Care.
 During a "board round" or huddle, a user can log in using their normal Single Sign on and perform updates.
@@ -109,7 +112,7 @@ During a "board round" or huddle, a user can log in using their normal Single Si
 
 ![Transfers.JPG]({{site.baseurl}}/img/Transfers.JPG)
 
-This screen gives an overview of the whole hospital or specialty, showing a patient current location along with their inteded location. It includes patients in the Emergency Department and patients who are being admitted directly from their GP. The board indicates when the patient is ready for transfer and how long they have been waiting.
+This screen gives an overview of the whole hospital or specialty, showing patients current location along with their intended location. It includes patients in the Emergency Department and patients who are being admitted directly from their GP. The board indicates when the patient is ready for transfer and how long they have been waiting. It also highlights available beds though the hospital.
 
 ### Departures
 
