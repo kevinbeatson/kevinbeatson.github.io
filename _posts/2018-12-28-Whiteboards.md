@@ -129,7 +129,8 @@ Nursing Station in Emergency Department Showing the ED Board on the large screen
 A wall of the Operations Control Centre showing large screens configured to show Patient Boards for the entire hospital.
 
 ![IMG-20170521-WA0000.jpg]({{site.baseurl}}/img/IMG-20170521-WA0000.jpg)
-Another view showing boards. The Dark blue screen is the Ambulance System - showing patients on their way to ED (this is not our system)
+Another view showing boards. 
+The Dark blue screen is the Ambulance System - showing patients on their way to ED. This is not our system, but is supplied by the Yorkshire Ambulance Service.
 
  
 
