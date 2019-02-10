@@ -8,9 +8,9 @@ bigimg: /img/cropped-aPicture8.jpg
 
 ## Electronic Whiteboards
 
-We have used [Oracle APEX](https://apex.oracle.com/) to create different display "boards" to support the care of Patients during their stay in our hospitals. These boards have been developed in house over a number of years and are built directly on our Oracle database.
-Located throughout the hospitals at the point of use, most of the boards are permenantly "on" and require no user input. They auto-refresh to update every few minutes to reflect changes made on the patient administration and clinical systems. Some allow users to authenticate and drill down to see more information or update data.
-These systems are designed to support the specific care of individual patients and also the management of flow of patients through the hospitals.
+We have used [Oracle APEX](https://apex.oracle.com/) to create different display "boards" to support the care of Patients during their stay in our hospitals. These boards have been developed in-house by our own developers over a number of years. They are built directly on the Oracle database that is used for our Patient Admin System.
+Located throughout the hospitals at the point of use, most of the boards are permenantly "on" and require no user input. They auto-refresh to update every few minutes to reflect changes made on the patient administration and clinical systems. Some allow users to authenticate and drill down to see more information or update the patient record.
+These systems are designed to support the specific care of individual patients but also support the management of the flow of patients through the hospitals.
 
 ### Emergency Department Boards
 
@@ -45,7 +45,7 @@ The Arrivals Boards are loacted within the admitting wards areas and the control
 ![arrivalsbd.png]({{site.baseurl}}/img/arrivalsbd.png)
 
 The screens can be configured to show specific specialties, groups of specialties or all patients. 
-Te board shows
+The board shows
 - The location of the patient (or intended location if still in ED, or coming directly from Primary Care)
 - LoS (legth of Stay)
 - Reason for admission & who discussed the admission 
@@ -79,25 +79,44 @@ On the current version you can drill down to see their nursing sonservations cha
 
 ### Patient Board
 
-text
+The Patient Board is the main working list for a Ward within the hospital. It is used to highlight the current status of a patient in relation to health indicators and activity. 
 
 ![PatientBoard.JPG]({{site.baseurl}}/img/PatientBoard.JPG)
 
-### Transfers Board
+As with the ED Board there are indicators for Patients with Diabetes, Frailty, Dementia etc. The board also shows the following which are pulled directly from the electronic patient record
+- Blood Glucose Levels
+- Nutrition Score
+- Waterlow Score (Skin assessment)
+- Falls Assessment
+- if Cannulae are fitted
+- Clerking Status
+- Indicator if any Pathology has been reported, showing as a red cross until it is reviewed
+- Similar indicator for Radiology
+- VTE assessment Status
+- Allergy Review Status
+- AMTS Status
+- Diagnosis Status
+- Discharge Drug (TTO) indicator
+- Flag showing if the electronic discharge letter has been done (for patients approaching transfer)
+- Discharge status indicator
+- Flag showing if the ptient can outlie
 
-text
+The board is instrumental in supporting discharge planning. You can see what the patient is waiting for, the details of any delays and where the patient will be discharged to. The screen shows details of any internal referrals and interactions with Social Services for Delayed Transfers of Care.
+During a "board round" or huddle, a user can log in using their normal Single Sign on and perform updates.
+
+
+### Transfers Board
 
 ![Transfers.JPG]({{site.baseurl}}/img/Transfers.JPG)
 
-### Departures
+This screen gives an overview of the whole hospital or specialty, showing a patient current location along with their inteded location. It includes patients in the Emergency Department and patients who are being admitted directly from their GP. The board indicates when the patient is ready for transfer and how long they have been waiting.
 
-text
+### Departures
 
 ![departures.JPG]({{site.baseurl}}/img/departures.JPG)
 
+The departures board is more interactive than most of our other electronic bards, having a number of parameters allow users to search for patients meeting specific criteria.
 
-
-_more to follow_
 
 
 
