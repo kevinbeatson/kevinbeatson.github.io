@@ -5,13 +5,13 @@ title: Marjorie's Story
 bigimg: /img/edentranceclip.jpg
 ---
 Marjorie is an 85 year old lady who is taken ill at home. An ambulance is sent following a 999 call. The Ambulance Service book her onto their system and record that she is being brought into her local hospital. At the hospital the Emergency Department and the control room know she is coming as she appears on the ambulance arrivals boards located in the both locations.
-Marjorie arrives at the department and is booked in by the admin team. She is already known to the trust and easily identified on the System and a new attendance recorded. The ED Clerk notices there is a safeguarding alert and communicates this fact to the admitting nurse who is performing triage. Marjorie appears on the ED System and the electronic whiteboards located throughout the department.
+Marjorie arrives at the department and is booked in by the admin team. 
+She is already known to the trust and easily identified on the System and a new attendance recorded. The ED Clerk notices there is a safeguarding alert and communicates this fact to the admitting nurse who is performing triage. Marjorie appears on the ED System and the electronic whiteboards located throughout the department.
 
 ![ambulancearrbd.png]({{site.baseurl}}/img/ambulancearrbd.png)
 ED Whiteboard
 
 Her status and location (currently in the ambulance handover area) are tracked as she progresses on her journey. Staff can see the forget-me-not symbol on the boards, indicating that Marjorie is known to have a pre-existing diagnosis of Dementia, this being recorded on a previous attendance. This board shows Frailty flags, Ceiling of Care, GAPS and NEWS.
-
 
 A few minutes later the performance activity dashboards are updated.
 
@@ -28,6 +28,7 @@ Marjorie is moved to a different bay and the system updated. Her location is upd
 
 The admin team access the enhanced summary care record on the national system and upload onto the system. From this point on access to the summary care record is then instant and directly in context within the clinical system.
 
+![EDwithpeople.JPG]({{site.baseurl}}/img/EDwithpeople.JPG)
 Julie, The ED registrar logs on to the system and drills down into Marjorie's record. She can see that the patient is well known to the trust and views documentation showing Marjorie had a recent colonoscopy. The histology result for the biopsy taken during the procedure confirms cancer, but she can see that the patient does not yet know. Julie can see that Marjorie has an appointment in a Gastroenterology clinic the following week. She reviews letters, the Summary Care Record, diagnostic reports and gains a general understanding of Marjorie's past and recent medical history. She realises that it is particularly important given the patient’s dementia that any conversations in relation to the diagnosis will need to be with a family member present.
 
 The system, including the electronic ED whiteboard has a symbol highlighting to the clinical team that during this patient’s last stay it was recorded that she had a DNACPR form completed. This indicates that the patient was for "active ward level care" but not for escalation to intensive care. The registrar, phones the next of kin, Marjories daughter, to confirm this fact (the phone number is on patient’s ribbon on the patient record). With permission granted, Julie completes a replacement form as the original is still at home in the kitchen. The doctor takes the opportunity to discuss the diagnosis and treatment with Marjories daughter.
@@ -38,18 +39,12 @@ Recording the patient as an intended admission causes Marjorie to become visible
 ![arrivalsbd.png]({{site.baseurl}}/img/arrivalsbd.png)
 Arrivals Board
 
-![bedoffc.jpg]({{site.baseurl}}/img/bedoffc.jpg)
-Control Room
-
 Back in ED the inpatient clerking in process is started and all Marjorie's medications are written up on EPMA including her ongoing antibiotics. Many of her medications are suspended given her critical illness but recorded as such so that they are not forgotten come time for her discharge.
 
 Her ECG is completed in ED and the printout is scanned onto the system along with the "CAS Card” these becoming visible within the electronic record to the team on AMU.
 Marjorie is moved to AMU and her ED attendance is completed within the ED screens. The electronic summary is transmitted electronically to her GP.
 
 On arrival on AMU her "pending admission" is finalised with a few clicks and Marjorie is allocated a bed. All the whiteboards and systems update. The inpatient record is explicitly linked to the ED record with data such as reason for admission flowing through to the inpatient care record. 
-
-![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
-The Original Whiteboard
 
 ![safetybd.png]({{site.baseurl}}/img/safetybd.png)
 Patient Safety Board
