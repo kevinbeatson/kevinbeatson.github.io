@@ -19,9 +19,9 @@ So for example here we can see the patients waiting in the Ambulance arrivals ar
 
 ![EDAmbulance.jpg]({{site.baseurl}}/img/EDAmbulance.jpg)
 
-The board shows
+The board shows:
 - The cubicle in which the patient is located
-- The patients initials, sex and age
+- The patient's initials, sex and age
 - Visual indicators. Here we can see the forget-me-not which indicates dementia, a ceiling of care alert and frailty flags
 - The most recent National Early Warning Score (NEWS) and the time since the observations were taken
 - Whether the patient has been streamed or assessed and the priority level
@@ -37,28 +37,29 @@ The board shows
 - If the ED Coding has been completed
 - Total time in ED and the projected breach time
 
-Most of the data items have pop up tooltips or drill downs to show more detail. All the data is held in the main ED/PAS system and queried directly. Users can authenticate using their normal network logon and perform limited updates - for example recording times or creating or acknowledging tasks 
+Most of the data items have pop up tooltips or the users can drill downs to see more detail. All the data is held in the main ED/PAS system and queried directly. Users can authenticate using their normal network logon and perform limited updates - for example recording times, creating or acknowledging tasks.
 
 ### Arrivals Boards
 
-The Arrivals Boards are loacted within the admitting wards areas and the control room as "permenantly on" displays. They show patients that are on their way to the wards as well as patients already admitted onto a ward. They clearly show the status of a patient in relation to their being seen by an admitting doctor. This is a key safety factor in ensuring patients get seen quickly.
+The Arrivals Boards are loacted within the admitting ward areas and the control room as "permenantly on" displays. They show patients that are on their way to the wards as well as patients already admitted onto a ward. They clearly show the status of a patient in relation to their being seen by an admitting doctor. This is a key safety factor in ensuring patients get seen quickly and don't get missed.
 
 ![arrivalsbd.png]({{site.baseurl}}/img/arrivalsbd.png)
 
 The screens can be configured to show specific specialties, groups of specialties or all patients. 
-The board shows
-- The location of the patient (or intended location if still in ED, or coming directly from Primary Care)
+
+The board shows:
+- The location of the patient (or their intended location if they are still in ED, or coming directly from Primary Care)
 - LoS (legth of Stay)
 - Reason for admission & who discussed the admission 
 - Sepsis Screening Status
 - Clerking Status (TBS = To Be Seen)
-- A flag if the patient can outlie (i.e. be sent to a ward belonging to a different specialty)
-- RFT - is the patient ready to transfer
+- A flag to show if the patient can outlie (i.e. be sent to a ward belonging to a different specialty)
+- RFT - is the patient ready to transfer?
 
 ### Activity Predictor
 
-We stream data to an Oracle 11gR2 database using Oracle Streams, we have a transformation process which runs every 15 minutes that updates the "real time" data that is displayed in this screen. This shows the position in relation to attendances to the Emergency Department and admissions and discharges to the two acute hospitals.
-Current stats are shown alongside averaages, upper and lower control limits based on activity data over the preceeding two years. Colour coding is used to give a quick indication of the state of the hospital.
+We stream data to an Oracle 11gR2 database using Oracle Streams. We have a transformation process which runs every 15 minutes that updates the "real time" data that is displayed in this screen. This shows the position in relation to attendances to the Emergency Department and admissions and discharges within the two acute hospitals.
+Current statistics are shown alongside averaages, upper and lower control limits based on activity data over the preceeding two years. Colour coding is used to give a quick indication of the state of the hospital.
 
 ![edactivitybd.png]({{site.baseurl}}/img/edactivitybd.png)
 
@@ -68,16 +69,16 @@ Bed managers can see the location of available beds, if they are male or female 
 
 ![bedstock.JPG]({{site.baseurl}}/img/bedstock.JPG)
 
-clicking the ward shorname/number will drill down into the Ward Whiteboard so they van review detail
-The screen auto-refreshes every tem minutes, but can be manually refreshed.
+Clicking the ward shorname/number will drill down into the Ward Whiteboard so they can review the detailed position on each ward.
+The screen auto-refreshes every ten minutes, but can be manually refreshed.
 
 ### Ward Whiteboard
 These screens were not written in Oracle APEX, but were created using java server pages and oracle reports server. It's not how we would do them today, but they have been robust and stood the test of time.
-There are one or two of these screens on each ward, they are st up on PCs that are always on and auto-start directly to the screen.
+There are one or two of these screens on each ward, they are set up on PCs that are always on and auto-start directly to the whiteboard screen.
 
 ![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
 
-The screen shows an approximate layout of the ward and clearly identifies the occupied beds as well as patients who have arrived but have not yet been allocated to a bed. The screenshot above is from our test database and is from a presentation we did in 2007. The screens were first put live in 2006 and are still in use. You can see the patient, which consultant is responsible for their care, which nursing team and some clinical information such as their NEWS, diabetes status etc.
+The screen shows an approximate layout of the ward and clearly identifies the occupied beds as well as patients who have arrived but have not yet been allocated to a bed. The screenshot above is from our test database and is from a presentation we did in 2007. The screens were first put live in 2006 and are still in use. You can see the patient, which consultant is responsible for their care, which nursing team and some clinical information such as their NEWS, diabetes flags etc.
 On the current version you can drill down to see their nursing observations chart.
 
 ### Patient Board
@@ -86,12 +87,13 @@ The Patient Board is the main working list for a Ward within the hospital. It is
 
 ![PatientBoard.JPG]({{site.baseurl}}/img/PatientBoard.JPG)
 
-As with the ED Board there are indicators for Patients with Diabetes, Frailty, Dementia etc. The board also shows the following which are pulled directly from the electronic patient record
+As with the ED Board there are indicators for Patients with Diabetes, Frailty, Dementia, Ceiling of Care etc. The board also shows the following which are pulled directly from the electronic patient record:
+
 - Blood Glucose Levels
 - Nutrition Score
 - Waterlow Score (Skin assessment)
 - Falls Assessment
-- Number of Cannulae (if fitted)
+- Number of Canulae (if fitted)
 - Clerking Status
 - Indicator if any Pathology has been reported, showing as a red cross until it is reviewed
 - Similar indicator for Radiology
@@ -112,7 +114,7 @@ During a "board round" or huddle, a user can log in using their normal Single Si
 
 ![Transfers.JPG]({{site.baseurl}}/img/Transfers.JPG)
 
-This screen gives an overview of the whole hospital or specialty, showing patients current location along with their intended location. It includes patients in the Emergency Department and patients who are being admitted directly from their GP. The board indicates when the patient is ready for transfer and how long they have been waiting. It also highlights available beds though the hospital.
+This screen gives an overview of the whole hospital or specialty, showing a patients current location along with their intended destination location. It includes patients in the Emergency Department and patients who are being admitted directly from their GP. The board indicates when the patient is ready for transfer and how long they have been waiting. It also highlights available beds though the hospital.
 
 ### Departures
 
