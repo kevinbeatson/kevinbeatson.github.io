@@ -8,14 +8,14 @@ bigimg: /img/cropped-aPicture8.jpg
 
 ## Electronic Whiteboards
 
-We have used [Oracle APEX](https://apex.oracle.com/) to create different display "boards" to support the care of Patients during their stay in our hospitals. These boards have been developed in-house by our own developers over a number of years. They are built directly on the Oracle database that is used for our Patient Admin System.
-Located throughout the hospitals at the point of use, most of the boards are permenantly "on" and require no user input. They auto-refresh to update every few minutes to reflect changes made on the patient administration and clinical systems. Some allow users to authenticate and drill down to see more information or update the patient record.
+We have used [Oracle APEX](https://apex.oracle.com/) to create different display "boards" that support the care of Patients during their stay in our hospitals. These boards have been developed in-house by our own developers over a number of years. They are built directly on the Oracle database that is used for our Patient Administration System.
+Located throughout the hospitals at the point of use, most of these boards are permenantly "on" and require no user input. They auto-refresh to update every few minutes to reflect changes made on the patient administration and clinical systems. Some allow users to authenticate by entering their normal system credentials and drill down to see more information or update the patient record.
 These systems are designed to support the specific care of individual patients and the management of the flow of patients through the hospitals.
 
 ### Emergency Department Boards
 
-There is one display board that shows all patient currently within the Emergency Department (ED). This can be launched with a parameter based on the location to show a shorter list of patients to those staff in that area, whereas others will show full lists of patients.
-So for example here we can see the patients waiting in the Ambulance arrivals area
+There is a display board that shows all patient within the Emergency Department (ED). This can be launched with a location parameter to show a shorter list of patients to those staff in that area, whereas others will show full lists of ED patients.
+So for example here we can see the patients waiting in the Ambulance arrivals area.
 
 ![EDAmbulance.jpg]({{site.baseurl}}/img/EDAmbulance.jpg)
 
