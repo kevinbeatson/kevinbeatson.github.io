@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: Marjorie's Story
+tags: [OrclApex,Oracle,Showcase]
 bigimg: /img/edentranceclip.jpg
 ---
 Marjorie is an 85 year old lady who is taken ill at home. An ambulance is sent following a 999 call. The Ambulance Service book her onto their system and record that she is being brought into her local hospital. At the hospital the Emergency Department and the control room know she is coming as she appears on the ambulance arrivals boards located in the both locations.
@@ -68,3 +69,5 @@ Recognising the dementia label the bed managers ensure it is likely to be her la
 The Discharge letter is finalised by the discharging doctor who selects TTO Meds which are then flagged up on the screens within Pharmacy and recorded on the Discharge Notification having been electronically validated by the ward Pharmacist.
 Once the TTO pack is returned to the ward Marjory is discharged by the Nurse, given a paper copy of the dischareg notification and discharged from the Inpatient screens. At this point the electonic version of the discharge notification is transmitted directly to the GP system.
 A Few hours later Blood results are posted in the pathology department. Because Marjory is no longer an inpatient they cannot be seen on the ward, instead they become visible on the  Consultants “Notify” (their clinical workflow system) along with worklist item to do a full discharge Letter.
+
+
